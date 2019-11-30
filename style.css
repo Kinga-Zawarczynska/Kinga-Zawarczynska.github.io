@@ -1,0 +1,15 @@
+.nav{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.hamburger{
+    display: flex;
+    
+}
+
+.navLinks{
+    padding: 0 10px;
+}

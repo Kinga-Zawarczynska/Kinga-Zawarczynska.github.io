@@ -14,8 +14,14 @@
   
 }
 .social-links{
+    cursor: pointer;
     display: flex;
     justify-content: space-around;
+}
+.social-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 80px;
 }
 
 .social-links div{
@@ -26,6 +32,3 @@
     
 }
 
-.social-links i{
-    font-size: 80px;
-}

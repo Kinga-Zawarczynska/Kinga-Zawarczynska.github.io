@@ -1,29 +1,31 @@
 *{
     box-sizing: border-box;
     font-family: sans-serif;
+    background: #F6C8C9
 }
 
 .wrapper{
-    background: url("./IMAGES/Kinga\ zawarczyńska.png");
-     background-size: cover;
-    width: 1920px; 
-    height:1080px;
+    
+  
+    width: auto; 
+    height:100vh;
 }
 
 .nav{
-    cursor: pointer;
+    
     display: flex;
     justify-content: space-between;
     padding: 15px 5px 0;
     font-size: 30px;
     font-weight: bold;
-    border-bottom: rgb(206, 19, 75) 2px solid;
-    color: rgb(206, 19, 75);
+    border-bottom: rgb(204, 49, 80) 2px solid;
+    color: rgb(204, 49, 80)
 }
 
 .nav a{
+    cursor: pointer;
     text-decoration: none;
-    color: rgb(206, 19, 75);
+    color: rgb(204, 49, 80);
 
 
 }
@@ -31,6 +33,7 @@
 .logo{
     height: 60px;
     padding: 0 0 5px;
+    margin-bottom: 10px; 
 }
 
 .logo img{
@@ -49,3 +52,46 @@
     padding: 0 10px;
 }
 
+
+.border{
+  
+    border: solid 4px rgb(204, 49, 80);
+    height: 700px;
+    width: 550px;
+    margin: 5% 0 5% 5%;
+}
+
+.img{
+    position: relative;
+}
+
+.img img{
+    transform: rotate(90deg);
+   width: 600px;
+   height: 440px;
+   position: absolute;
+   top: 125px;
+   right: -5.7%;
+}
+.flexWrapper{
+    display: flex;
+}
+
+.workPortfolio img{
+    margin-top: 5%;
+    background: #F6C8C9;
+    height: 450px;
+    width: 800px;
+}
+
+.description{
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: 4%;
+    color: rgb(204, 49, 80);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.name{
+    margin-top: 20%;
+}

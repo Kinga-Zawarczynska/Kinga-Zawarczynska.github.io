@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.wrapper{
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    
+
+}
+
+.container{
+    text-align: center;
+    margin-bottom: 30px;;
+}
+
+.container div{
+    display: inline-block;
+    margin: 5px;
+    
+}
+.row{
+    margin: 0;
+    
+}
+
+.naglowek{
+    display: flex;
+    justify-content: space-around;
+
+    font-weight: bold;
+    border: 1px solid #212121;
+    background: rgb(228, 150, 150);
+}
+
+#students div, #teachers div{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 80px;
+
+}
+
+.item{
+    border: 1px solid #212121;
+    box-sizing: border-box;
+    width: 20%;
+    
+}
+

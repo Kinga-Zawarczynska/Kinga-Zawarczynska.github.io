@@ -2,10 +2,11 @@
 
 .projects{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .singleProject{
-    margin: 7% 7%;
+    margin: 7% 0 0 7%;
     padding: 1%;
     background:rgb(228, 165, 179);
    border: 2px solid rgb(204, 49, 80) ;

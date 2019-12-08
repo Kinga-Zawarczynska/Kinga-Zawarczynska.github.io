@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="tyle.css">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="container">
+      <div>
+        <input type="checkbox" id="student" name="student">
+        <label for="student">JESTEM STUDENTEM</label>
+      </div>
+     
+
+
+      <div>
+        <input id="inputName" placeholder="Imię" />
+      </div>
+      <div>
+        <input id="inputSurname" placeholder="Nazwisko" />
+      </div><div>
+          <input id="inputPesel" placeholder="Numer PESEL" />
+        </div>
+      <div class="notStudent">
+        <input id="inputAge" placeholder="Wiek" disabled/>
+      
+        <input id="inputDirection" placeholder="Kierunek studiów" disabled />
+      </div>
+      <div class="not">
+        <input id="inputPosition" placeholder="Stanowisko" />
+      </div>
+
+
+
+
+      <br>
+      <button id="addButton">Dodaj do listy</button>
+      
+    </div>
+
+
+    <div id="students"></div>
+    <div id="teachers"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

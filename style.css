@@ -96,7 +96,7 @@
 }
 
 
-@media (min-width: 1301px) and (max-width: 1900px) {
+@media (min-width: 1801px) {
     .border{
         height: 900px;
         width: 700px;
@@ -117,10 +117,91 @@
     .description{
         font-size: 40px;
     }
+    .nav{
+        font-size: 50px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .navLinks{
+        margin-bottom: 10px;
+    }
+
+    .social-links div{
+        font-size: 28px;
+    }
+    .social-border{
+        width: 1600px;
+        height: 800px;
+    }
+
+    .social-links a{
+        font-size: 100px;
+        margin-top: 30px;
+    }
+
+    
+}
+
+
+@media (min-width: 1501px) and (max-width: 1800px) {
+    .border{
+        height: 680px;
+        width: 550px;
+    }
+    
+    .img img{
+       width: 600px;
+       height: 450px;
+       top: 115px;
+       right: -5%;
+    }
+    .workPortfolio img{
+        height: 400px;
+        width: 750px;
+    }
+    .description{
+        font-size: 34px;
+    }
+    .nav{
+        font-size: 50px;
+       
+    }
+    .navLinks{
+        margin-bottom: 10px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .social-border{
+        width: 400px;
+        height: 700px;
+        margin-top: 48px;
+        padding: 20px;
+    }
+
+    .social-links div{
+        font-size: 24px;
+    }
+    .social-border{
+        width: 1300px;
+        height: 600px;
+    }
+
+    .social-links a{
+        font-size: 70px;
+        margin-top: 30px;;
+    }
+    .singleProject{
+        margin: 10% 0 0 10%;
+        padding: 2%;
+        border-radius: 6px;
+    
+    }
 
 }
 
-@media (min-width: 1001px) and (max-width: 1300px) {
+@media (min-width: 1001px) and (max-width: 1500px) {
     .nav{
         font-size: 20px;
         
@@ -129,7 +210,8 @@
         height: 50px;
     }
     .social-border{
-        width: 1000px;
+        width: 800px;
+        height: 700px;
     }
 
     .social-links{
@@ -138,6 +220,7 @@
     .social-links a{
         font-size: 60px;
     }
+
     .border{
         height: 500px;
         width: 410px;
@@ -160,6 +243,12 @@
     }
     .description{
         font-size: 26px;
+    }
+    .singleProject{
+        margin: 7% 0 0 14%;
+        padding: 1%;
+        border-radius: 4px;
+    
     }
 }
 
@@ -225,6 +314,12 @@
     }
     .description{
         font-size: 26px;
+    }
+    .singleProject{
+        margin: 7% 0 0 30%;
+        padding: 1%;
+        border-radius: 4px;
+    
     }
 
 

@@ -198,6 +198,22 @@
         border-radius: 6px;
     
     }
+    .about{
+        margin: 2% 28% 0;
+        height: 75vh;
+        width: 40vw;
+        font-size: 28px;
+  
+    }
+    
+    .aboutText{
+        margin: 60px; 
+    }
+    
+    .aboutImg img{
+        width: 100%;
+        height: auto;
+    }
 
 }
 
@@ -249,6 +265,22 @@
         padding: 1%;
         border-radius: 4px;
     
+    }
+    .about{
+        margin: 2% 22% 0;
+        height: 75vh;
+        width: 50vw;
+        font-size: 22px;
+  
+    }
+    
+    .aboutText{
+        margin: 45px; 
+    }
+    
+    .aboutImg img{
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -320,6 +352,22 @@
         padding: 1%;
         border-radius: 4px;
     
+    }
+    .about{
+        margin: 2% 22% 0;
+        height: 70vh;
+        width: 50vw;
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    .aboutText{
+        margin: 40px; 
+    }
+ 
+    .aboutImg img{
+        width: 100%;
+        height: auto;
     }
 
 

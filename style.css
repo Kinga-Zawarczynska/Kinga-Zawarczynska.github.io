@@ -17,7 +17,8 @@
     font-size: 30px;
     font-weight: bold;
     border-bottom: rgb(204, 49, 80) 4px solid;
-    color: rgb(204, 49, 80)
+    color: rgb(204, 49, 80);
+    width: 100vw;
 }
 
 .nav a{
@@ -94,3 +95,24 @@
     margin-top: 20%;
 }
 
+@media (max-width: 1400px) {
+    .nav{
+        font-size: 20px;
+        
+    }
+    .logo{
+        height: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav{
+        font-size: 20px;
+        
+    }
+    .logo{
+        height: 40px;
+    }
+
+
+}

@@ -121,7 +121,7 @@
         font-size: 50px;
     }
     .logo{
-        height: 50px;
+        height: 70px;
     }
     .navLinks{
         margin-bottom: 10px;
@@ -171,7 +171,7 @@
         margin-bottom: 10px;
     }
     .logo{
-        height: 50px;
+        height: 60px;
     }
     .social-border{
         width: 400px;
@@ -214,6 +214,9 @@
         width: 100%;
         height: auto;
     }
+    .navLinks{
+        font-size: 40px;
+    }
 
 }
 
@@ -234,7 +237,10 @@
         flex-wrap: wrap;
     }
     .social-links a{
-        font-size: 60px;
+        font-size: 80px;
+    }
+    .navLinks{
+        font-size: 30px;
     }
 
     .border{

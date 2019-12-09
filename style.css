@@ -14,11 +14,11 @@
     display: flex;
     justify-content: space-between;
     padding: 15px 5px 0 0 ;
-    font-size: 30px;
+    font-size: 60px;
     font-weight: bold;
     border-bottom: rgb(204, 49, 80) 4px solid;
     color: rgb(204, 49, 80);
-    width: 100vw;
+    width: 100%;
 }
 
 .nav a{
@@ -30,7 +30,7 @@
 }
 
 .logo{
-    height: 60px;
+    height: 100px;
     padding: 0 0 5px;
     margin-bottom: 10px; 
 }
@@ -55,8 +55,8 @@
 .border{
   
     border: solid 4px rgb(204, 49, 80);
-    height: 700px;
-    width: 550px;
+    height: 1380px;
+    width: 1120px;
     margin: 5% 0 5% 5%;
 }
 
@@ -66,11 +66,11 @@
 
 .img img{
     transform: rotate(90deg);
-   width: 600px;
-   height: 440px;
+   width: 1200px;
+   height: 950px;
    position: absolute;
-   top: 125px;
-   right: -5.7%;
+   top: 210px;
+   right: -3.7%;
 }
 .flexWrapper{
     display: flex;
@@ -79,13 +79,13 @@
 .workPortfolio img{
     margin-top: 5%;
     background: #F6C8C9;
-    height: 450px;
-    width: 800px;
+    height: 900px;
+    width: 1600px;
 }
 
 .description{
     margin-top: 5%;
-    font-size: 30px;
+    font-size: 60px;
     margin-left: 4%;
     color: rgb(204, 49, 80);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -95,7 +95,7 @@
     margin-top: 20%;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1300px) {
     .nav{
         font-size: 20px;
         

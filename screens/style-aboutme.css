@@ -1,6 +1,6 @@
 .about{
     margin: 2% 30% 0;
-    height: 80vh;
+    height: 90vh;
     width: 40vw;
     text-align: center;
     color: rgb(204, 49, 80) ;
@@ -22,7 +22,7 @@
 
 .last {
     font-weight: bold;
-    margin: 20px;
+    margin: 20px 20px 5px;
 }
 
 .aboutImg img{

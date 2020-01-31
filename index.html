@@ -5,41 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to my world</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    
 
+    <title>Welcome to my world!</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="nav">
-            <div class="logo"><a href="./index.html"><img src="./IMAGES/KoalaLogo.png"></a></div>
-            <div class="hamburger">
-                    <div class="navLinks""> <a href="./screens/aboutme.html">About me</a> </div>
-                <div class=" navLinks"> <a href="./screens/projects.html">Projects</a> </div>
-                <div class="navLinks"><a href="./screens/socials.html">Social media</a></div>
-            </div>
+    <header>
+        <a class="logo" href="./index.html"><img src="./images/KoalaLogo.png"></a>
+        <nav>
+            <a class="navLink" href="./screens/aboutMe.html">About me</a>
+            <a class="navLink" href="./screens/projects.html">Projects</a>
+            <a class="navLink" href="./screens/social.html">Social media</a>
+        </nav>
+    </header>
+   
+    <main>
+        <div class="mainImgDiv">
+            <img class="mainImg" src="./images/meBlack.png" alt="">
         </div>
-        <div class="flexWrapper">
-            <div class="border">
-                <div class="img">
-                    <img src="./IMAGES/IMG_20191028_122946.jpg">
-                </div>
-
-            </div>
-            <div>
-                <div class="description name">KINGA ZAWARCZYŃSKA</div>
-                <div class="workPortfolio">
-                    <img src="./IMAGES/workPort.png" alt="">
-                </div>
-                <div class="description small">Junior Front-end Developer | Civil Engineer</div>
-            </div>
-
+        <div class="mainContent">
+            <p>
+                Kinga Zawarczyńska
+            </p>
+            <p>Junior Front-end Developer</p>
         </div>
-    </div>
-
+    </main>
 
 
 </body>
+<script src="./script.js"></script>
 
 </html>

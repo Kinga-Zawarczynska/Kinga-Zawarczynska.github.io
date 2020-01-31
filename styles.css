@@ -1,0 +1,132 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f7d1d1;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Marquette';
+  src: url(./fonts/Marquette.otf);
+}
+
+@font-face {
+  font-family: 'Sallina';
+  src: url(./fonts/CaviarDreams_Italic.ttf);
+}
+
+@font-face{
+  font-family: 'CaviarDreams';
+  src: url(./fonts/CaviarDreams.ttf)
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  border-bottom: 0.5px solid rgba(235, 77, 77, 0.7);
+  width: 95%;
+}
+
+.logo img {
+  margin-top: 5px;
+  height: 30px;
+}
+
+nav {
+  padding-top: 5px;
+  margin-top: 10px;
+  font-family: 'Marquette';
+}
+
+.navLink {
+  cursor: pointer;
+  margin: 0 8px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #eb4d4d;
+}
+
+.navLink:hover{
+  color: black;
+  /* font-weight: bold; */
+}
+
+main {
+  margin: 0 5%;
+}
+
+.mainImgDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainImg {
+  width: 280px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.mainContent {
+  text-align: center;
+  font-family: 'Detale';
+  font-weight: 100;
+  color: #eb4d4d;
+}
+
+.mainContent p:first-child {
+  font-size: 30px;
+  font-family: 'Sallina';
+  margin: 5px 0;
+}
+
+.mainContent p {
+  font-family: 'Marquette';
+  font-size: 20px;
+}
+
+.computerLogo {
+  text-align: center;
+  margin: 5% 0 0 0;
+}
+
+
+.sticky {
+  background-color: rgba(235, 77, 77, 0.57);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  border: 0;
+  z-index: 1;
+  padding: 0 2.5%;
+}
+
+.changeColor{
+  color: white;
+  font-weight: bold;
+}
+
+.active{
+  font-weight: bold;
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */

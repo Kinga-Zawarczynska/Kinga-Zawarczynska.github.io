@@ -5,75 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kinga Zawarczyńska | Projects</title>
-    <link rel="stylesheet" href="style-projects.css">
-    <link rel="stylesheet" href="../style.css">
-    
-    <script src="https://kit.fontawesome.com/f33bec8455.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="projects.css">
+    <title>My projects</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="nav">
-            <div class="logo"><a href="../index.html"><img src="../IMAGES/KoalaLogo.png"></a></div>
-            <div class="hamburger">
-                <div class="navLinks""> <a href="./aboutme.html">About me</a> </div>
-                <div class=" navLinks"> <a href="./projects.html">Projects</a> </div>
-                <div class="navLinks"><a href="./socials.html">Social media</a></div>
-            </div>
-
-
+    <header>
+        <a class="logo" href="../index.html"><img src="../images/KoalaLogo.png"></a>
+        <nav>
+            <a class="navLink" href="./aboutMe.html">About me</a>
+            <a class="navLink active" href="./projects.html">Projects</a>
+            <a class="navLink" href="./social.html">Social media</a>
+        </nav>
+    </header>
+    <main>
+        <div class="projectsDescription">
+            <p class="projects">Now you can have a look at projects that I've built by myself or took part in.
+                Some of them are still in development. For more go to <a class="github" href="https://github.com/Kinga-Zawarczynska" target="blank">my GitHub</a>, there you 
+            can have a look at smaller apps (SPA) that I've created. </p>
         </div>
-        <div class="projects">
-            <a class="singleProject" href="http://www.jastrzebienocy.jfdd13.is-academy.pl/#" target="blank">
-                <img src="../IMAGES/foodwaste.png" alt="">
-                <div>
-                    Landingpage aplikacji Foodwaste
-                </div>
+        <div class="cardContainer">
+            <a href="http://www.jastrzebienocy.jfdd13.is-academy.pl/#" class="card" target="blank">
+                <img class="cardImg" src="../images/foodwaste.png" alt="">
+                <p class="cardInner">
+                    Static landing page of Food Waste app created by a 4-person team,
+                    that allows you to search for recipes basing on what you have in your fridge.
+                    Page was developed using <strong>HTML5, CSS3, ES6</strong>.</p>
+            </a>
+            <a href="http://app.jastrzebienocy.jfdd13.is-academy.pl/#" class="card" target="blank">
+                <img class="cardImg" src="../images/fooapp.png" alt="">
+                <p class="cardInner">
+                    <strong>React</strong> based application working on <strong>Firebase</strong>,
+                    created using SemanticUI and self-developed components.
+                    Welcomes user with dashboard with some analitycal data
+                    and then allows to filter through recipes from base
+                    and also to add new ones.
+                </p>
 
             </a>
-            <a class="singleProject" href="http://app.jastrzebienocy.jfdd13.is-academy.pl/#" target="blank">
-                <img src="../IMAGES/fooapp.png" alt="">
-                <div>
-                    Aplikacja Foodwaste
-                </div>
-
+            <a href="http://www.jastrzebienocy.jfdd13.is-academy.pl/newgame.html" class="card" target="blank">
+                <img class="cardImg" src="../images/minigame.png" alt="">
+                <p class="cardInner">
+                    Additional game to the landing page of Food Waste app developed using
+                    <strong>Object Oriented JavaScript</strong>.
+                </p>
             </a>
-           
-            <a class="singleProject" target="blank" href="http://www.jastrzebienocy.jfdd13.is-academy.pl/newgame.html">
-                <img src="../IMAGES/minigame.png" alt="">
-                <div>
-                    MINI-GRA
-                </div>
-
+            <a href="http://www.jastrzebienocy.jfdd13.is-academy.pl/newgame.html" class="card" target="blank">
+                <img class="cardImg" src="#" alt="intervYou logo">
+                <p class="cardInner">
+                    <strong>React</strong> based application that is gonna help junior developers prepare to
+                    their interview, both technical and soft. User will have a choice of tests or flip-cards to study
+                    and forum to look for advanced explanations and to ask more complicated questions.
+                </p>
             </a>
-            <a class="singleProject" target="blank" href="../OBJECT3/index.html">
-                <img src="../IMAGES/formularz.png" alt="">
-                <div>
-                    Formularz rejestracji 
-                </div>
-
-            </a>
-            <a class="singleProject" target="blank" href="https://github.com/Kinga-Zawarczynska">
-                <img src="../IMAGES/reactchat.png" alt="">
-                <div>
-                   Aplikacja chat
-                </div>
-
-            </a>
-            
-            <a class="singleProject" target="blank" href="https://github.com/Kinga-Zawarczynska">
-                <img src="../IMAGES/e-Dziennik.png" alt="">
-                <div>
-                    e-Dziennik
-                </div>
-
-            </a>
-
         </div>
-    </div>
+
+    </main>
 
 </body>
+<script src="../script.js"></script>
 
 </html>

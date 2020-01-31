@@ -1,0 +1,27 @@
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.socialContainer{
+    width: 75vw;
+}
+
+.socialLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 10%;
+    text-align: center;
+    font-family: "Sallina";
+    font-weight: 500;
+}
+
+.fab{
+    font-size: 40px;
+    margin-bottom: 10px;
+}

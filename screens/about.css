@@ -22,7 +22,7 @@ text-align: center;
 }
 .technologies i{
     font-size: 26px;
-    margin: 4% 0 1%;
+    margin: 4% 2% 1%;
     
 }
 
@@ -108,9 +108,43 @@ text-align: center;
   @media (min-width: 550px){
     .flipCard{
       display: block;
+      width: 35vw;
     }
     .mobileCard{
       display: none;
     }
-    
+    .technologies{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
   }
+ 
+  @media (min-width: 750px){
+    .tech{
+      font-size: 20px;
+    }
+    .iInner{
+      font-size: 14px;
+    }
+    .technologies i{
+      font-size: 26px;
+    }
+  }
+ 
+  @media (min-width: 950px){
+    .tech{
+      font-size: 24px;
+    }
+    .techStack{
+      font-size: 40px;
+    }
+
+    .iInner{
+      font-size: 16px;
+    }
+    .technologies i{
+      font-size: 30px;
+    }
+  }
+  
+ 

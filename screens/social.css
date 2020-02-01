@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10%;
 }
 
 .socialContainer{
@@ -25,3 +25,49 @@
     font-size: 40px;
     margin-bottom: 10px;
 }
+.iconDescription{
+    width: 70vw;
+}
+
+@media (min-width: 375px){
+   .fab{
+       font-size: 50px;
+   }
+   .iconDescription{
+       font-size: 18px;
+   }
+   }
+   
+   @media (min-width: 550px){
+    .social{
+        margin-top: 5%;
+    }
+    }   
+    @media (min-width: 650px){
+        .fab{
+            font-size: 60px;
+        }
+        .social{
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 10%;
+        }
+        .socialContainer{
+            width: 45vw;
+        }
+        .iconDescription{
+            width: 50vw;
+        }
+        }   
+
+ @media (min-width: 850px){
+    .socialContainer{
+        width: 20vw;
+        }
+    .social{
+        justify-content: space-between;
+        }
+        .iconDescription{
+            width: 25vw;
+        }
+    }   

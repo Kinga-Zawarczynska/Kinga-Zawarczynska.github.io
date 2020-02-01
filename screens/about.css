@@ -129,6 +129,9 @@ text-align: center;
     .technologies i{
       font-size: 26px;
     }
+    .flipCard{
+      height: 20vh;
+    }
   }
  
   @media (min-width: 950px){

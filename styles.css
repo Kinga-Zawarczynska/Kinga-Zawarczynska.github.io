@@ -53,7 +53,7 @@ nav {
 .navLink {
   cursor: pointer;
   margin: 0 8px;
-  font-size: 16px;
+  font-size: 15px;
   text-decoration: none;
   color: #eb4d4d;
 }
@@ -80,7 +80,7 @@ main {
 }
 
 .mainImg {
-  width: 280px;
+  width: 90vw;
   height: auto;
   margin: 0 auto;
 }
@@ -130,3 +130,131 @@ main {
   color: black;
 }
 /*# sourceMappingURL=styles.css.map */
+
+@media (min-width: 375px){
+  nav{
+    margin-bottom: 2%;
+  }
+  .navLink{
+    font-size: 18px;
+  }
+  .logo img{
+    height: 35px;
+  }
+
+  .main{
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 410px){
+  .navLink{
+    font-size: 20px;
+  }
+
+  .mainContent{
+    margin-top: 4%;
+  }
+  .mainContent p{
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 550px){
+  .logo img{
+    height: 40px;
+  }
+  .navLink{
+    font-size: 22px;
+  }
+  .mainContent p{
+    font-size: 40px;
+  }
+  .mainContent p:first-child{
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 750px){
+  .logo img{
+    height: 60px;
+    margin-top: 10px;
+  }
+  nav{
+    margin-top: 3%;
+  }
+  .navLink{
+    font-size: 32px;
+  }
+  .mainImg{
+    height: 80vh;
+    width: auto;
+  }
+  .mainContent p{
+    font-size: 50px;
+  }
+  .mainContent p:first-child{
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 950px){
+  .logo img{
+    height: 70px;
+    margin-top: 15px;
+  }
+  
+  nav{
+    margin-top: 3%;
+  }
+  .navLink{
+    font-size: 40px;
+  }
+
+  .mainImg{
+    height: 80vh;
+    width: auto;
+  }
+  .mainContent p{
+    font-size: 70px;
+  }
+  .mainContent p:first-child{
+    font-size: 75px;
+  }
+}
+
+
+
+
+
+@media (min-width: 1100px){
+  .mainImg {
+    width: auto;
+    height: 94vh;
+  }
+
+
+
+  .mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .mainContent p{
+    font-size: 50px;
+  }
+  .mainContent p:first-child{
+    font-size: 40px;
+  }
+ 
+
+  .main{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+}

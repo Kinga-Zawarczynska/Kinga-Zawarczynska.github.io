@@ -2,7 +2,7 @@
 .tech{
     font-family: 'Sallina';
     width: 80vw;
-    margin: 2% 5%;
+    margin: 2% 5% 15%;
     text-align: center;
     font-size: 16px;
 }
@@ -22,14 +22,14 @@ text-align: center;
 }
 .technologies i{
     font-size: 26px;
-    margin: 4px;
+    margin: 4% 0 1%;
     
 }
 
 .techDescription{
     font-family: 'Sallina';
     font-weight: 100;
-    margin: 2%;
+    margin: 2% 2% 5%;
 }
 
 .iInner{
@@ -38,8 +38,15 @@ text-align: center;
     font-family: 'Sallina';
 }
 
+.mobileCard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 80vw;
+  margin: 3%;
+}
+
 
 .flipCard {
+  display: none;
     margin: 4%;
     background-color: transparent;
     width: 80vw;
@@ -80,4 +87,30 @@ text-align: center;
     transform: rotateY(180deg);
   }
 
- 
+  @media (min-width: 375px){
+    .tech{
+      margin: 2% 5% 10%;
+      font-size: 18px;
+    }
+    .techStack{
+      font-size: 35px;
+    }
+    .techDescription{
+      font-size: 18px;
+    }
+    .iInner{
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+  }
+
+  @media (min-width: 550px){
+    .flipCard{
+      display: block;
+    }
+    .mobileCard{
+      display: none;
+    }
+    
+  }

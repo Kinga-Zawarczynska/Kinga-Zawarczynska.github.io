@@ -256,5 +256,13 @@ main {
     justify-content: space-around;
 
   }
+  .logo img{
+    height: 45px;
+    margin-top: 5px;
+  }
+  
+  nav{
+    margin: 1% 0;
+  }
 
 }

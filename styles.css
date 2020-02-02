@@ -258,11 +258,11 @@ main {
   }
   .logo img{
     height: 45px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
   
   nav{
-    margin: 1% 0;
+    margin: 1% 0 0;
   }
 
 }

@@ -1,7 +1,7 @@
 window.onscroll = function () { myFunction() };
 
 const navbar = document.querySelector('header');
-let navLink = document.querySelectorAll('.navLink')
+const navLink = document.querySelectorAll('.navLink')
 let sticky = navbar.offsetTop;
 
 function myFunction() {
